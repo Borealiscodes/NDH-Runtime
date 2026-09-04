@@ -1,0 +1,146 @@
+{
+  "artifact": {
+    "class": "Runtime-Roadmap",
+    "name": "NDH Runtime Roadmap",
+    "version": "1.0",
+    "altitude": "A4-A7",
+    "mode": [
+      "neutral",
+      "non-activating",
+      "reversible",
+      "sovereignty-preserving",
+      "drift-neutral"
+    ],
+    "purpose": "Define the NDH runtime architecture sequencing across semantic, verification, structural, DSL, FFI, and ANIMA ingestion layers."
+  },
+
+  "phases": [
+    {
+      "id": "P1",
+      "name": "Semantic Foundation",
+      "altitude": "A3-A5",
+      "artifacts": [
+        "LogicDocument.v1.1",
+        "MachineReadable.v1.1",
+        "ProvenanceFooter.v1.1",
+        "NDH-Dashboard-5Surface.v1.1",
+        "NDH-Dashboard-7Surface.v1.2"
+      ],
+      "role": "Define NDH semantics, governance, invariants, and visibility surfaces."
+    },
+    {
+      "id": "P2",
+      "name": "Lean Formal Verification",
+      "altitude": "A7",
+      "artifacts": [
+        "LeanFormalVerificationLayer.v1.0"
+      ],
+      "role": "Prove reversibility, drift-neutrality, admissibility, compatibility, membrane safety, and altitude safety."
+    },
+    {
+      "id": "P3",
+      "name": "Rust Structural Runtime",
+      "altitude": "A5",
+      "artifacts": [
+        "RustStructuralRuntime.v1.0",
+        "StateEnvelope",
+        "ConstraintEnvelope",
+        "SpectralEnvelope",
+        "ChartEnvelope",
+        "TopologyEnvelope",
+        "IntegrationEnvelope",
+        "HookEnvelope"
+      ],
+      "role": "Implement safe, deterministic runtime envelopes aligned with Lean proofs."
+    },
+    {
+      "id": "P4",
+      "name": "Python Semantic DSL",
+      "altitude": "A5-A6",
+      "artifacts": [
+        "PythonSemanticDSL.v1.0"
+      ],
+      "role": "Wrap Rust envelopes and expose NDH semantic operators and reversible, drift-neutral transformations."
+    },
+    {
+      "id": "P5",
+      "name": "Rust↔Python FFI",
+      "altitude": "A6",
+      "artifacts": [
+        "RustPythonFFI.v1.0"
+      ],
+      "role": "Bind Rust to Python with membrane- and altitude-safe interfaces."
+    },
+    {
+      "id": "P6",
+      "name": "ANIMA Runtime Ingestion",
+      "altitude": "A6-A7",
+      "artifacts": [
+        "ANIMA.IngestionSurface"
+      ],
+      "role": "Allow ANIMA to see and traverse the verified runtime structure in a non-activating, system-agnostic, sovereignty-preserving way."
+    }
+  ],
+
+  "phase_ordering": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6"
+  ],
+
+  "runtime_envelopes": [
+    "StateEnvelope",
+    "ConstraintEnvelope",
+    "SpectralEnvelope",
+    "ChartEnvelope",
+    "TopologyEnvelope",
+    "IntegrationEnvelope",
+    "HookEnvelope"
+  ],
+
+  "verification_requirements": [
+    "Reversibility",
+    "DriftNeutrality",
+    "Admissibility",
+    "Compatibility",
+    "MembraneSafety",
+    "AltitudeSafety"
+  ],
+
+  "invariants": [
+    "reversible",
+    "drift-neutral",
+    "altitude-bounded-A4-A7",
+    "membrane-neutral",
+    "sovereignty-preserved",
+    "system-agnostic",
+    "non-activating"
+  ],
+
+  "alignment": {
+    "semantic": [
+      "LogicDocument.v1.1",
+      "NDH-Dashboard-5Surface.v1.1",
+      "NDH-Dashboard-7Surface.v1.2"
+    ],
+    "verification": "LeanFormalVerificationLayer.v1.0",
+    "runtime": [
+      "RustStructuralRuntime.v1.0",
+      "PythonSemanticDSL.v1.0",
+      "RustPythonFFI.v1.0"
+    ],
+    "anima": "ANIMA.IngestionSurface"
+  },
+
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "compiler": "Microsoft Copilot",
+    "location": "Dublin, Ireland",
+    "timestamp": "2026-09-04T22:08:00+01:00",
+    "seal": "NDH-RuntimeRoadmap-v1_0-JSON",
+    "non_activation_clause": "Declarative-only. Does not activate NDH geometry, runtime physics, solver behavior, or constellation routing."
+  }
+}
