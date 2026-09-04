@@ -1,0 +1,171 @@
+{
+  "artifact": {
+    "class": "Repository-README",
+    "name": "NDH Runtime README",
+    "version": "2.0",
+    "altitude": "A6",
+    "mode": [
+      "descriptive",
+      "non-activating",
+      "PRECL-collapsed",
+      "sovereignty-preserving"
+    ],
+    "purpose": "Provide the canonical orientation surface for the NDH Runtime architecture, including spectral physics, state envelope, solver layer, guardrail layer, orchestration layer, telemetry channels, runtime→UI bridge, and manifest/capsule alignment."
+  },
+
+  "runtime_layers": [
+    {
+      "id": "L1",
+      "name": "Runtime Physics Layer",
+      "domain": "spectral-physics",
+      "concepts": [
+        "spectral adjacency",
+        "constellation resonance",
+        "soft-manifold flow",
+        "guardian modulation",
+        "calm-load dynamics",
+        "PRECL collapse"
+      ],
+      "sovereignty": "runtime-sovereign",
+      "governance": "neutral"
+    },
+    {
+      "id": "L2",
+      "name": "Runtime State Envelope",
+      "domain": "state-envelope",
+      "fields": [
+        "adjacency",
+        "resonance",
+        "flow",
+        "guardian-modulation",
+        "calm-load",
+        "PRECL-buffer"
+      ],
+      "invariants": [
+        "reversible",
+        "drift-neutral",
+        "PRECL-safe"
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "Runtime Solver Layer",
+      "domain": "solver",
+      "solvers": [
+        "adjacency-solver",
+        "resonance-solver",
+        "flow-solver",
+        "calm-load-solver",
+        "PRECL-collapse-solver"
+      ],
+      "properties": [
+        "reversible",
+        "invariant-safe",
+        "guardian-aligned"
+      ]
+    },
+    {
+      "id": "L4",
+      "name": "Runtime Guardrail Layer",
+      "domain": "guardrails",
+      "constraints": [
+        "altitude-discipline-S3-S7",
+        "state-bounds",
+        "drift-neutrality",
+        "reversibility",
+        "guardian-modulation-respect",
+        "PRECL-collapse-safety"
+      ]
+    },
+    {
+      "id": "L5",
+      "name": "Runtime Orchestration Layer",
+      "domain": "orchestration",
+      "operations": [
+        "initialization",
+        "adjacency-update",
+        "resonance-propagation",
+        "flow-evolution",
+        "calm-load-integration",
+        "PRECL-collapse",
+        "telemetry-handoff"
+      ]
+    },
+    {
+      "id": "L6",
+      "name": "Runtime Telemetry Channels",
+      "domain": "telemetry",
+      "channels": [
+        "SR-ALT",
+        "SR-ADJ",
+        "SR-RES",
+        "SR-FLOW",
+        "SR-GUARD",
+        "SR-CL",
+        "SR-PRECL"
+      ],
+      "mode": "read-only"
+    },
+    {
+      "id": "L7",
+      "name": "Runtime→UI Bridge",
+      "domain": "ui-bridge",
+      "signals": [
+        "altitude-indicator",
+        "adjacency-hints",
+        "constellation-glow",
+        "motion-hints",
+        "guardian-accents",
+        "runtime-tension-bar",
+        "PRECL-readiness-icon"
+      ],
+      "influence": "none"
+    }
+  ],
+
+  "alignment": {
+    "manifest": "NDH Runtime Manifest v1.0",
+    "capsules": [
+      "Runtime Capsule v1.0",
+      "Physics Capsule v1.0",
+      "State Capsule v1.0",
+      "Solver Capsule v1.0",
+      "Guardrail Capsule v1.0",
+      "Orchestration Capsule v1.0",
+      "Chakra Capsule v1.0",
+      "Eightfold Path Capsule v1.0"
+    ],
+    "grounding_layer": [
+      "Chakra Capsule v1.0",
+      "Eightfold Path Capsule v1.0"
+    ],
+    "serenity_mirror": "Serenity Solver Mirror v1.0"
+  },
+
+  "repository_layout": {
+    "root": "NDH-Runtime/",
+    "directories": [
+      "physics/",
+      "state/",
+      "solvers/",
+      "guardrails/",
+      "orchestration/",
+      "telemetry/",
+      "bridges/",
+      "manifest/",
+      "capsules/",
+      "developer_notes/",
+      "archive/readme/"
+    ],
+    "archive": "NDH-Runtime-README-v1_0.md"
+  },
+
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "compiler": "Microsoft Copilot",
+    "location": "Dublin, Ireland",
+    "timestamp": "2026-09-04T05:22:00+01:00",
+    "seal": "NDH-Runtime-README-v2_0-JSON",
+    "non_activation_clause": "Descriptive-only. Does not activate NDH geometry, adjacency engines, constellation routing, or runtime behavior."
+  }
+}
