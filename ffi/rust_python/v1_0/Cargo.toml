@@ -1,0 +1,12 @@
+[package]
+name = "ndh_runtime_ffi"
+version = "1.0.0"
+edition = "2024"
+
+[lib]
+name = "ndh_runtime_ffi"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.21", features = ["extension-module"] }
+ndh-runtime = { path = "../../../rust/v1.0/Rust-StructuralRuntime-v1_0" }
