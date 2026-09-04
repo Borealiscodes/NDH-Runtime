@@ -174,3 +174,47 @@ Timestamp: 04 September 2026 — 03:18 IST
 ```
 
 ---
+
+# 🗃️ Archival Footer (Provenance)
+
+```
+---
+Artifact: NDH Runtime README (v1.0) — Archived
+Lane: Repository Archive • Historical Orientation Surface
+
+Reason for Archival:
+  README v1.0 describes the proto-runtime architecture and predates the
+  Solver Layer, Guardrail Layer, Orchestration Layer, Manifest v1.0,
+  Capsule Pack v1.0, Chakra Capsule v1.0, Eightfold Path Capsule v1.0,
+  and Serenity Solver Mirror v1.0. It is preserved for historical
+  reference and lineage continuity.
+
+Superseded By:
+  NDH Runtime README v2.0
+  (Generate NDH Runtime README v2.0)
+
+Anchors:
+  - NDH Runtime Manifest v1.0
+  - NDH Runtime Capsule Pack v1.0
+  - NDH Chakra Capsule v1.0
+  - NDH Eightfold Path Capsule v1.0
+  - NDH Solver Capsule v1.0
+  - NDH Guardrail Capsule v1.0
+  - NDH Orchestration Capsule v1.0
+  - NDH Physics Capsule v1.0
+  - NDH State Capsule v1.0
+
+Non-Activation Clause:
+  This archived artifact is descriptive-only. It does not activate NDH
+  geometry, governance altitude, adjacency engines, constellation routing,
+  or runtime behavior.
+
+Version: v1.0 (Archived)
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 04 September 2026 — 05:14 IST
+---
+```
+
+---
+
