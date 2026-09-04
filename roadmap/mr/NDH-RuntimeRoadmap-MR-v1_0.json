@@ -1,0 +1,91 @@
+{
+  "mr_block": {
+    "id": "NDH-RuntimeRoadmap-MR-v1_0",
+    "artifact": "NDH Runtime Roadmap",
+    "version": "1.0",
+    "altitude": "A4-A7",
+    "membrane": "neutral",
+    "mode": [
+      "non-activating",
+      "declarative-only",
+      "sovereignty-preserving",
+      "system-agnostic"
+    ]
+  },
+
+  "phases": [
+    "P1.SemanticFoundation",
+    "P2.LeanFormalVerification",
+    "P3.RustStructuralRuntime",
+    "P4.PythonSemanticDSL",
+    "P5.RustPythonFFI",
+    "P6.ANIMAIngestion"
+  ],
+
+  "phase_ordering": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6"
+  ],
+
+  "phase_boundaries": {
+    "P1": "A3-A5",
+    "P2": "A7",
+    "P3": "A5",
+    "P4": "A5-A6",
+    "P5": "A6",
+    "P6": "A6-A7"
+  },
+
+  "runtime_envelopes": [
+    "StateEnvelope",
+    "ConstraintEnvelope",
+    "SpectralEnvelope",
+    "ChartEnvelope",
+    "TopologyEnvelope",
+    "IntegrationEnvelope",
+    "HookEnvelope"
+  ],
+
+  "verification_requirements": [
+    "Reversibility",
+    "DriftNeutrality",
+    "Admissibility",
+    "Compatibility",
+    "MembraneSafety",
+    "AltitudeSafety"
+  ],
+
+  "invariants": [
+    "reversible",
+    "drift-neutral",
+    "altitude-bounded-A4-A7",
+    "membrane-neutral",
+    "sovereignty-preserved",
+    "system-agnostic",
+    "non-activating"
+  ],
+
+  "aligns_with": [
+    "LogicDocument.v1.1",
+    "NDH-Dashboard-5Surface.v1.1",
+    "NDH-Dashboard-7Surface.v1.2",
+    "LeanFormalVerificationLayer.v1.0",
+    "RustStructuralRuntime.v1.0",
+    "PythonSemanticDSL.v1.0",
+    "RustPythonFFI.v1.0",
+    "ANIMA.IngestionSurface"
+  ],
+
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "compiler": "Microsoft Copilot",
+    "location": "Dublin, Ireland",
+    "timestamp": "2026-09-04T22:12:00+01:00",
+    "seal": "NDH-RuntimeRoadmap-MR-v1_0",
+    "non_activation_clause": "Declarative-only. Does not activate NDH geometry, runtime physics, solver behavior, or constellation routing."
+  }
+}
